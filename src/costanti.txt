@@ -1,0 +1,50 @@
+Valore di 
+
+ID_COMP_I
+
+// usato per CompareTo e percio' l'ordine negli array ordinati
+Ordine usato per ossidi e cationi nelle tabelle dei minerali standard
+
+[0] SiO2;
+[1] TiO2,
+[2] Al2O3,
+[3] Cr2O3,
+[4] FeO,
+[5] Fe2O3,
+[6] MnO,
+[7] MgO,
+[8] ZnO,
+[9] CaO,
+[10] Na2O,
+[11] K2O,
+[12] P2O5,
+[13] B2O3,
+[14] SrO,
+[15] La2O3
+[19] CO2
+[20] PbO
+[21] ThO2
+[22] UO2
+[23] Pr2O3
+[24] Y2O3
+[25] Nd2O3
+[26] Sm2O3
+[27] Ce2O3
+[28] Gd2O3
+[29] SO3
+[30] NiO
+[31] BaO
+[32] H2O 
+[33] Li2O
+[34] ZrO2
+[35] Mn2O3
+[36] ......LIBERO
+[37] CoO
+[38] .......LIBERO
+[39] F
+[40] Cl	
+[41] V2O3
+								
+**/
+
+
