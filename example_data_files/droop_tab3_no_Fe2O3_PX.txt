@@ -1,0 +1,1 @@
+Sample	Mineral	SiO2	TiO2	Al2O3	Cr2O3	FeO	MnO	MgO	CaO	ZnO	Na2O	K2OcpxA	cpx	56.21	0	10.56	0	6.1	0.01	7.33	12.13	0	7.64	0.04

@@ -1,0 +1,15 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue192;\red127\green0\blue85;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15340\viewh7320\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs26 \cf0 1) jMineralCalc.java --> Main --> selezione FILE --> new Sample("nome", nomeFile)\
+\
+2) Sample.java-->Sample("nome", nomeFile)->setSampleName->List of Datasets (empty)-->addAnalysisDataFile(file)-->new AnalysisDataFile(file)\
+\
+3) AnalysisDataFile.java-->mintabAnalysisDataFile_readAll(aFileString, \cf2 mfsArrayList\cf0  = \cf3 new\cf0  ArrayList<MineralPhase>());-->check_set_OxidePosition(\cf2 headers_String\cf0 ); OXIDES negli header-->ATTIVA GLI OSSIDI TROVATI in MineralPhase --> PER OGNI LINEA DEL FILE INPUT-> controlla il minerale e lo aggiunge all'array di minerali (analisi) -->\cf2 mfsArrayList\cf0 .add(\cf3 new\cf0  Garnet(array_singola_lineaA, \cf2 lista_Ossidi\cf0 ,\cf2 lista_Cations\cf0 ));--> CALCOLO secondo MineralPhase\
+%% lista_Cations \'e8 inutile\
+4)MineralPhase.java--> array_inputData-->[0]sample, [1]mineral-->setOssidi(setOssidi(\cf2 array_inputData\cf0 , \cf2 listaOssidi\cf0 );)\
+\
+}

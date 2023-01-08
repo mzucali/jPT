@@ -1,0 +1,1 @@
+Sample	Mineral	Al2O3	SiO2	TiO2	Na2O	FeO	MgO	CaO	K2O	MnOtest1	px	60	36	0	2.4	12	1	2	0	4test2	px	12	32	0.34	1.2	9	6	12	0	1

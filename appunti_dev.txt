@@ -1,0 +1,70 @@
+Appunti su JMineralCalc
+
+
+
+
+
+******************
+Luglio 2011
+- grafica
+- export: AX, WINAMPH, XLS, KANEKO
+- chl_temp
+
+
+******************
+Marzo 2011
++ Ho sistemato il calcolo delle eta' da monzite
++ ho aggiunto il calcolo della T dal contenuti di Ti nelle Biotiti (Henry et al. 2005)
++ aggiunta la pumpellyite (Michela Cantu') ricalcolata a 12 ossigeni anche se non e' ben chiaro quale sia il valore corretto. Dipende dallo scambio Si-OH
+
+************************************
+18-19 Nvembre 2010
+Ho cambiato l'approccio, ora AnalysisDataFile quando legge gli headers attiva gli ossidi direttamente in MineralPhase come campi statici e,
+ attribuendo un token (es. tokenSiO2) direttamente in MineralPhase e NON piu' in AnalysisDataFile,  sempre in MineralPhase aggiunge via via gli ossidi a listaOssidi.
+Cosi' oggetti come SDPbO, SDThO2, SDUO2 vengono letti e attivati in MineralPhase.
+Di seguito, quando MineralPhase viene attivata sulle stringe di dati, legge la posizione dei singoli ossidi usando la posizione (token) attivata 
+in precedenza
+
+
+*****16/marzo/2010
+- aggiunto la maggiorparte delle fasi calcolabili
+- non ho ancora aggiornato il file con le fasi e gli ossigeni
+
+
+
+******1/febbraio/2010
+- il programma per ora lavora e calcola le formule senza alcun controllo sui dati di input. Ad esempio, se per l'epidoto viene inserito FeO anziche' Fe2O3,
+calcola con FeO.
+- JMineralCalc permette di inserire non solo le sigle dei minerali a cui si associano gli OSSIGENI utilizzati per il calcolo, ma anche gli il NUMERO di 
+ossigeni direttamente, nella stessa posizione delle SIGLE.
+***** 5 febb 2010
+- ogni minerale permette di aggiungere altri elementi calcolati e.g. Alm, AlVI, e stamaprlo nel file OUTPUT
+- per aggiornare il file .JAR basta selezionare il file jMineralCalc_jar_desc.jardesc, TASTO DX, CREATE JAR
+- pyroxene: aggiunto AlIV, AlVI, T, M, Z
+- garnet: Molecole Alm, Py, Grs, Spss
+
+
+
+
+******** FATTO*********
+/*build.xml x compilare e generare jar file*/
+sostituito con file jardesc (export....)
+check degli ossidi in listaOssidi cosi' da sapere quali ossidi sono presenti (boolean) (es. isFeOpresent)
+
+
+
+
+
+
+
+******* DA FARE *******
+interfaccia grafica
+mettere da qualche parte il file con ossidi e sigle usate per il calcolo
+aggiungere NiO
+
+
+
+**** PROBLEMI *******
+- aggiungere mineral phase in JTable
+- check del Fe3
+

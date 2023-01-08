@@ -1,0 +1,1 @@
+Sample	Mineral	SiO2	TiO2test1	cpx	60	12test2	cpx	61	13

@@ -1,0 +1,1 @@
+Sample	Mineral	Na2O	MgO	Al2O3	SiO2	K2O	CaO	TiO2	FeObt_sesia_vecchia	bt	0.017	7.27	14.54	37.71	9.72	0.01	4.18	24.71bt_sesia_vecchia02	bt	0.018	9.27	16.54	38.72	10.72	1.01	5.18	25.71

@@ -1,0 +1,1 @@
+Sample	Mineral	PbO	UO2	ThO2	SDTh	SDU	SDPbMonazite-c-1 	mnz	0.0783	0.4784	8.46	0.72	7.55	38.07Monazite-Tiepolo-1 	mnz	0.2332	0.1792	12.58	0.57	15.37	14.38

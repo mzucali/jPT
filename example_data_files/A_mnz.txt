@@ -1,0 +1,1 @@
+Sample	Mineral	SiO2	PbO	UO2	ThO2	SDTh	SDU	SDPbpyle1/1/1	mnz	12.23	0.0866	0.4308	3.72	1.66	4.34	13.50

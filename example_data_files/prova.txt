@@ -1,0 +1,2 @@
+Sample	Mineral	Al2O3	MgO	K2O	FeO	SiO2	TiO2	CaO	Na2O	MnO
+am11_6 	amp	1.0781	8.68	0.0197	22.14	55.44	0.0249	1.71	5.99	1.1603

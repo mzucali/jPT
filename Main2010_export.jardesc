@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="MacRoman"?>
+<jardesc>
+<jar path="/Users/miki/Development/java/jPTGUI2.1src/dist/Main2010_1611.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/jPT_eclipse/Main2010_export.jardesc" exportErrors="false" exportWarnings="false" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="true" mainClassHandleIdentifier="=jPT_eclipse/&lt;gui{jMineralCalc.java[jMineralCalc" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+<sealing sealJar="true">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<javaElement handleIdentifier="=jPT_eclipse/&lt;main"/>
+<javaElement handleIdentifier="=jPT_eclipse/&lt;datafiles"/>
+<javaElement handleIdentifier="=jPT_eclipse/&lt;cations"/>
+<file path="/jPT_eclipse/.project"/>
+<file path="/jPT_eclipse/costanti.txt"/>
+<javaElement handleIdentifier="=jPT_eclipse/&lt;gui"/>
+<file path="/jPT_eclipse/.classpath"/>
+<file path="/jPT_eclipse/Main2010_export.jardesc"/>
+<file path="/jPT_eclipse/appunti_dev.txt"/>
+<javaElement handleIdentifier="=jPT_eclipse/&lt;tools"/>
+<javaElement handleIdentifier="=jPT_eclipse/&lt;oxydes"/>
+<javaElement handleIdentifier="=jPT_eclipse/&lt;minerals"/>
+</selectedElements>
+</jardesc>
